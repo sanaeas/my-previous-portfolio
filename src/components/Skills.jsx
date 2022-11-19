@@ -30,11 +30,8 @@ function Skills() {
         <Row>
           <Col>
             <div className="skill-bx">
-              <h2>Skills</h2>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Laudantium ut praesentium tempora accusantium iusto eaque.
-              </p>
+              <h2>My technology stack</h2>
+              
               <Carousel responsive={responsive} infinite={true} className="skill-slider">
                 <div className="item">
                     <img src={htmlLogo} alt="" />
