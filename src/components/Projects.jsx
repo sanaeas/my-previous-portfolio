@@ -1,60 +1,63 @@
 import React from 'react'
 import { Col, Container, Nav, Row, Tab } from 'react-bootstrap';
-import projImg1 from '../assets/img/project-img1.png';
-import projImg2 from '../assets/img/project-img2.png';
-import projImg3 from '../assets/img/project-img3.png';
 import ProjectCard from './ProjectCard';
 import colorSharp2 from '../assets/img/color-sharp2.png';
+import libraryProject from '../assets/img/library-landing.png';
+import moviesProject from '../assets/img/movies-landing.png';
+import portfolioProject from '../assets/img/portfolio.png';
+import googleClone from '../assets/img/googleClone.png';
+import twitterClone from '../assets/img/twitterClone.png';
 
 function Projects() {
     const work = [
         {
-            title: 'Business Startup',
-            description: 'Design & Development',
-            imgUrl: projImg1,
-            githubUrl: '',
-            deployUrl: '',
+            title: 'Library',
+            description: 'E-Commerce Bookstore developed with React, CSS3 and HTML5 best practises.',
+            imgUrl: libraryProject,
+            githubUrl: 'https://github.com/sanaeas/E-library-app',
+            deployUrl: 'https://library-21fb0.web.app',
         },
         {
-            title: 'Business Startup',
-            description: 'Design & Development',
-            imgUrl: projImg2,
+            title: 'Movies',
+            description: 'A React App which uses the TMDB API to search for movies and tv shows.',
+            imgUrl: moviesProject,
+            githubUrl: 'https://github.com/sanaeas/movies-app',
+            deployUrl: 'https://movies-app-da5f3.web.app',
         },
-        {
-            title: 'Business Startup',
-            description: 'Design & Development',
-            imgUrl: projImg3,
-        },
-        {
-            title: 'Business Startup',
-            description: 'Design & Development',
-            imgUrl: projImg1,
-        },
-        {
-            title: 'Business Startup',
-            description: 'Design & Development',
-            imgUrl: projImg2,
-        },
-        {
-            title: 'Business Startup',
-            description: 'Design & Development',
-            imgUrl: projImg3,
-        },
+        
     ];
 
     const portfolios = [
         {
-            title: 'Business Startup',
-            description: 'Design & Development',
-            imgUrl: projImg1,
+            title: 'E-Portfolio',
+            description: 'Developed a responsive e-portfolio using JavaScript, CSS3 [BEM] and HTML5 best practices.',
+            imgUrl: portfolioProject,
+            githubUrl: 'https://github.com/sanaeas/E-portfolio',
+            deployUrl: 'https://sanaeas.github.io/E-portfolio/',
         },
     ]
 
     const clones = [
         {
-            title: 'Business Startup',
-            description: 'Design & Development',
-            imgUrl: projImg1,
+            title: 'Google Clone',
+            description: "Integrated Google's API to create a search engine using React, CSS3 and HTML5 best practices.",
+            imgUrl: googleClone,
+            githubUrl: 'https://github.com/sanaeas/google-clone',
+            deployUrl: 'https://clone-eea6e.web.app'
+        },
+        {
+            title: 'Twitter Clone',
+            description: 'Developed a social media app using React, Firebase and React Twitter Embed Component.',
+            imgUrl: twitterClone,
+            githubUrl: 'https://github.com/sanaeas/twitter-clone',
+            deployUrl: 'https://twitter-clone-29095.web.app',
+        },
+        {
+            title: 'Hulu Clone',
+            description: "Clone of Hulu's video streaming service using Next.js, and Tailwind CSS best practices.",
+            imgUrl: twitterClone,
+            githubUrl: '',
+            deployUrl: '',
         },
     ]
 
