@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/img/logo.png';
 import githubLogo from '../assets/img/github.svg';
 import pdfLogo from '../assets/img/pdf.png';
+import resume from '../assets/resume.pdf';
 import { BrowserRouter as Router } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
@@ -49,7 +50,7 @@ function NavBarComp() {
             <span className="navbar-text">
               <div className="social-icon">
                   <a target="_blank" href="https://github.com/sanaeas"><img src={githubLogo} alt='' /></a>
-                  <a target="_blank" href="#"><img src={pdfLogo} alt='' /></a>
+                  <a target="_blank" href={resume}><img src={pdfLogo} alt='' /></a>
               </div>
               <HashLink to="#connect">
               <button className="vvd">

@@ -52,13 +52,6 @@ function Projects() {
             githubUrl: 'https://github.com/sanaeas/twitter-clone',
             deployUrl: 'https://twitter-clone-29095.web.app',
         },
-        {
-            title: 'Hulu Clone',
-            description: "Clone of Hulu's video streaming service using Next.js, and Tailwind CSS best practices.",
-            imgUrl: twitterClone,
-            githubUrl: '',
-            deployUrl: '',
-        },
     ]
 
   return (
