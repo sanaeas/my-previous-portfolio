@@ -7,6 +7,7 @@ import moviesProject from '../assets/img/movies-landing.png';
 import portfolioProject from '../assets/img/portfolio.png';
 import googleClone from '../assets/img/googleClone.png';
 import twitterClone from '../assets/img/twitterClone.png';
+import amazonClone from '../assets/img/amazonClone.png';
 
 function Projects() {
     const work = [
@@ -51,6 +52,13 @@ function Projects() {
             imgUrl: twitterClone,
             githubUrl: 'https://github.com/sanaeas/twitter-clone',
             deployUrl: 'https://twitter-clone-29095.web.app',
+        },
+        {
+            title: 'Amazon Clone',
+            description: 'Developed an e-commerce app using React, Firebase (Authentication and Cloud Functions) and Stripe.',
+            imgUrl: amazonClone,
+            githubUrl: 'https://github.com/sanaeas/amazon-clone',
+            deployUrl: 'https://clone-8d036.web.app',
         },
     ]
 
