@@ -2,8 +2,8 @@ import React from 'react'
 import { Col, Container, Nav, Row, Tab } from 'react-bootstrap';
 import ProjectCard from './ProjectCard';
 import colorSharp2 from '../assets/img/color-sharp2.png';
-import libraryProject from '../assets/img/library-landing.png';
-import moviesProject from '../assets/img/movies-landing.png';
+import libraryProject from '../assets/img/library.png';
+import moviesProject from '../assets/img/movies.png';
 import portfolioProject from '../assets/img/portfolio.png';
 import googleClone from '../assets/img/googleClone.png';
 import twitterClone from '../assets/img/twitterClone.png';
