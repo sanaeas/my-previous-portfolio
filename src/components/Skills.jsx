@@ -6,6 +6,9 @@ import htmlLogo from '../assets/img/html5.png';
 import cssLogo from '../assets/img/css3.png';
 import jsLogo from '../assets/img/java-script.png';
 import reactLogo from '../assets/img/react.png';
+import nextjsLogo from '../assets/img/nextjs.png';
+import bootstrapLogo from '../assets/img/bootstrap.png';
+import tailwindLogo from '../assets/img/tailwind.png';
 import ColorSharp from '../assets/img/color-sharp.png';
 
 function Skills() {
@@ -34,20 +37,32 @@ function Skills() {
               
               <Carousel responsive={responsive} infinite={true} className="skill-slider">
                 <div className="item">
-                    <img src={htmlLogo} alt="" />
+                    <img src={htmlLogo} alt="HTML Logo" />
                     <h5>HTML</h5>
                 </div>
                 <div className="item">
-                    <img src={cssLogo} alt="" />
+                    <img src={cssLogo} alt="CSS Logo" />
                     <h5>CSS</h5>
                 </div>
                 <div className="item">
-                    <img src={jsLogo} alt="" />
+                    <img src={jsLogo} alt="JavaScript Logo" />
                     <h5>JavaScript</h5>
                 </div>
                 <div className="item">
-                    <img src={reactLogo} alt="" />
+                    <img src={reactLogo} alt="ReactJS Logo" />
                     <h5>ReactJS</h5>
+                </div>
+                <div className="item">
+                    <img src={nextjsLogo} alt="NextJS Logo" />
+                    <h5>NextJS</h5>
+                </div>
+                <div className="item">
+                    <img src={bootstrapLogo} alt="Bootstrap Logo" />
+                    <h5>Bootstrap</h5>
+                </div>
+                <div className="item">
+                    <img src={tailwindLogo} alt="Tailwind Logo" />
+                    <h5>Tailwind</h5>
                 </div>
               </Carousel>
             </div>
