@@ -55,7 +55,7 @@ function Banner() {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`Hey, I'm Sanae. `}<span className="txt-rotate"><span className='wrap'>{ text }</span></span></h1>
-                        <p>I'm a frontend developer with a strong passion for building responsive and performant web applications with great user experience.</p>
+                        <p>I am a Front-End Developer with a passion for creating visually appealing and user-friendly web interfaces. I am constantly learning and staying up-to-date with the latest technologies to deliver the best possible user experience.</p>
                         <HashLink to="#connect">
                             <button>Let's Connect <ArrowRightCircle size={25} /></button>
                         </HashLink>
