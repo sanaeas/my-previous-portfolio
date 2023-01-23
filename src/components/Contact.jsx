@@ -23,6 +23,7 @@ function Contact() {
         (result) => {
           console.log(result.text);
           setStatus({ succes: true, message: "Message sent successfully" });
+          setButtonText("Send");
         },
         (error) => {
           console.log(error.text);
@@ -34,8 +35,7 @@ function Contact() {
       );
     document.querySelector(".name_input").value = "";
     document.querySelector(".email_input").value = "";
-    document.querySelector(".message").value = "";
-    setButtonText("Send");
+    document.querySelector(".message_area").value = "";
   };
 
   return (
