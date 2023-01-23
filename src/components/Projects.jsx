@@ -2,6 +2,7 @@ import React from 'react'
 import { Col, Container, Nav, Row, Tab } from 'react-bootstrap';
 import ProjectCard from './ProjectCard';
 import colorSharp2 from '../assets/img/color-sharp2.png';
+import fashionShop from '../assets/img/fashionShop.png';
 import libraryProject from '../assets/img/library.png';
 import moviesProject from '../assets/img/movies.png';
 import portfolioProject from '../assets/img/portfolio.png';
@@ -11,6 +12,13 @@ import amazonClone from '../assets/img/amazonClone.png';
 
 function Projects() {
     const work = [
+        {
+            title: 'Fashion Shop',
+            description: 'E-Commerce web app developed with React and Tailwind. The products fetched from Fake Store API',
+            imgUrl: fashionShop,
+            githubUrl: 'https://github.com/sanaeas/fashion-shop',
+            deployUrl: 'https://fashion--shop.web.app/',
+        },
         {
             title: 'Library',
             description: 'E-Commerce Bookstore developed with React, CSS3 and HTML5 best practises.',
